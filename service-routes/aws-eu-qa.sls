@@ -11,4 +11,6 @@ nginx:
        -
         location: /ad-feeder
         upstream: ad-feeder
-
+       -
+        location: /foo
+        upstream: foo
