@@ -11,4 +11,6 @@ nginx:
        -
         location: /country
         upstream: country
-
+       -
+        location: /foo
+        upstream: foo
